@@ -7,6 +7,4 @@
     "discord.js": "^12.2.0",
     "fstorm": "latest",
     "jimp": "latest"
- "scripts": {
-   "start": "parcel ./src/index.html",
-   "build": "parcel build ./src/index.html"
+
