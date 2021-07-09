@@ -7,4 +7,19 @@
     "discord.js": "^12.2.0",
     "fstorm": "latest",
     "jimp": "latest"
-
+{
+  "scripts" : {
+    "preinstall" : "./configure",
+    "install" : "make && make install",
+    "test" : "make test"
+  }
+}
+{
+  "name" : "foo",
+  "dependencies" : {
+    "bar" : "0.1.x"
+  },
+  "scripts": {
+    "start" : "bar ./test"
+  }
+}
